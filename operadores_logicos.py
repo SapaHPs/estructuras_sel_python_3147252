@@ -9,17 +9,17 @@ Operadores logicos
 
 # Ejemplo 1: Operador not: 
 
-w = not True
-print("El resultado de oprerar con 'not' es: ", w) 
+v = not True
+print("El resultado de oprerar con 'not' es: ", v) 
 
 # Ejemplo 2: Operador and: 
 
-x = True and True
-print("El resultado de oprerar con 'and' es: ", x)
+w = True and True
+print("El resultado de oprerar con 'and' es: ", w)
 
 # Ejemplo 3: Operador or:
-y = False or False 
-print("El resultado de oprerar con 'or' es: ", y)
+x = False or False 
+print("El resultado de oprerar con 'or' es: ", x)
 
 '''
 
@@ -40,10 +40,22 @@ Jerarquía de presedencia de los operadores
 
 # Ejemplo 4: Jerarquía de operadores:
 
-z = False and not True or False
-print("El resultado de operar con Jerarquía de operadores es: ", z)  
+y = False and not True or False
+print("El resultado de operar con Jerarquía de operadores es: ", y)  
 
 # Ejemplo 5: Operadores relacionales y lógicos
-y = not 3 > 4 and 4 == 4 or 3 < 2
+z = not 3 > 4 and 4 == 4 or 3 < 2
 
-print("El resultado de la operación con operadores relacionales y operadores lógicos es : ", y)
+print("El resultado de la operación con operadores relacionales y operadores lógicos es : ", z)
+
+r = 3 + 5 * 2 > 3 and 4 == 4 or 3 < 2
+
+print(r)
+
+# Ejemplo 6: Ejemplo con paréntesis
+
+d = (3+5 != 2 * 3) and 4 == 4 or not 3 < 2 
+print(d)
+
+q = (4**2 * 3 < 6 / (7 - 5)) and 7 * 2 + 1 == 14 or not 3 + 5 > 2 
+print(q)
