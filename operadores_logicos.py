@@ -26,14 +26,14 @@ print("El resultado de oprerar con 'or' es: ", x)
 Jerarquía de presedencia de los operadores 
 (logicos inclusive):
 
-    1.          ()
-    2.          **
-    3.          *, /, %,
-    4.          +, -
-    5.          <, >, <=, =>, !=, ==
-    6.          not
-    7.          and
-    8.          or
+    1.          ()              ... => Aritméticos
+    2.          **              ... => Aritméticos
+    3.          *, /, %             ... => Aritméticos
+    4.          +, -                ... => Aritméticos
+    5.          <, >, <=, =>, !=, ==                ... => Comparativos
+    6.          not             ... => Lógicos
+    7.          and             ... => Lógicos
+    8.          or              ... => Lógicos
     9.          =
 
 '''
